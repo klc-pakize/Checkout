@@ -1,0 +1,186 @@
+@font-face {
+  font-family: Font;
+  src: url(./font/Montserrat-Regular.ttf);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Font;
+}
+
+header {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.containerS h2 {
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+.contact {
+  border: 1px solid grey;
+  border-radius: 5px;
+  width: 400px;
+  height: 30px;
+  margin: 0.5rem 0;
+}
+
+input {
+  border: none;
+
+  outline: none;
+}
+
+i {
+  margin: 0.4rem 0.5rem;
+  color: gray;
+}
+
+.shipping {
+  position: relative;
+}
+
+span {
+  margin-left: 4.2rem;
+}
+.country {
+  display: flex;
+  width: 115px;
+}
+
+.post {
+  width: 241px;
+  position: absolute;
+  top: 18px;
+  left: 8rem;
+}
+
+.check {
+  border: none;
+  margin-top: 2rem;
+}
+
+.submit {
+  border: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button1 {
+  width: 4rem;
+  height: 2rem;
+  background-color: orange;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.sales {
+  display: inline-block;
+  width: 400px;
+  height: 390px;
+  margin: 4rem 3rem;
+  background-color: rgba(211, 207, 207, 0.568);
+  border-radius: 20px;
+  position: relative;
+}
+
+.sales img {
+  width: 100px;
+  display: flex;
+  margin: 1rem 1rem 0 1rem;
+  border-radius: 5px;
+}
+
+.sales h4 {
+  position: relative;
+  left: 8.2rem;
+  bottom: 6.8rem;
+}
+
+#span1 {
+  position: relative;
+  left: 4rem;
+  bottom: 7rem;
+  font-size: 1.5rem;
+  color: orange;
+}
+
+#span2 {
+  text-decoration: line-through;
+  color: black;
+  position: relative;
+  bottom: 7rem;
+  font-size: 1rem;
+}
+
+.total {
+  position: relative;
+}
+
+#p1 {
+  border-top: 1.5px solid grey;
+  width: 370px;
+  margin-left: 1rem;
+  padding: 0.2rem;
+}
+
+#p2 {
+  position: absolute;
+  left: 17.7rem;
+  bottom: 1.8rem;
+}
+
+#p3 {
+  position: absolute;
+  left: 16rem;
+  bottom: 0.1rem;
+}
+
+.sum {
+  border: 2px solid gray;
+  border-radius: 7px;
+  width: 9rem;
+  height: 3rem;
+  position: absolute;
+  left: 8rem;
+  top: 14rem;
+}
+.sum button {
+  background-color: rgba(211, 207, 207, 0.568);
+  border: none;
+  font-size: 1.5rem;
+  width: 1.5rem;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+}
+.sum1 {
+  border: 2px solid gray;
+  border-radius: 7px;
+  width: 9rem;
+  height: 3rem;
+  position: absolute;
+  left: 8rem;
+  top: 4rem;
+}
+.sum1 button {
+  background-color: rgba(211, 207, 207, 0.568);
+  border: none;
+  font-size: 1.5rem;
+  width: 1.5rem;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+}
+
+.sum1 span {
+  margin: auto 1rem;
+}
+.sum span {
+  margin: auto 1rem;
+}
